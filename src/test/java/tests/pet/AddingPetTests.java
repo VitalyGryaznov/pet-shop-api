@@ -17,10 +17,10 @@ import java.util.List;
 
 public class AddingPetTests extends AbstractTest {
 
-    @DisplayName("Check the functionality of deleting a pet")
+    @DisplayName("After creating pet I am able to get it by id  with correct details")
     @Link(name = "Specification", url = "https://petstore.swagger.io/#/")
     @Test
-    public void our() {
+    public void createPetAndVerifyItWasCreated() {
         // TODO: need to use getters, setters and constructor instead.
         Pet pet = new Pet();
         pet.id = 777;
